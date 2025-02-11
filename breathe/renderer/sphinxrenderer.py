@@ -1964,7 +1964,8 @@ class SphinxRenderer:
                 if node.static == "yes":
                     elements.append("static")
                 if node.inline == "yes":
-                    elements.append("inline")
+                    #elements.append("inline")
+                    ...
                 if node.kind == "friend":
                     elements.append("friend")
                 if node.virt in ("virtual", "pure-virtual"):
